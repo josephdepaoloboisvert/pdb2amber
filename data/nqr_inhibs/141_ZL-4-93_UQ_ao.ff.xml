@@ -1,0 +1,65 @@
+<ForceField>
+  <Info>
+    <DateGenerated>2022-11-15</DateGenerated>
+  </Info>
+  <AtomTypes>
+    <Type name="lig-S6" class="S6" element="S" mass="32.0600" />
+    <Type name="lig-O" class="O" element="O" mass="16.0000" />
+    <Type name="lig-C3" class="C3" element="C" mass="12.0100" />
+    <Type name="lig-H1" class="H1" element="H" mass="1.0080" />
+    <Type name="lig-OH" class="OH" element="O" mass="16.0000" />
+    <Type name="lig-HO" class="HO" element="H" mass="1.0080" />
+  </AtomTypes>
+  <Residues>
+    <Residue name="UNL">
+      <Atom charge="  1.622500" name="S" type="lig-S6" />
+      <Atom charge=" -0.668300" name="O" type="lig-O" />
+      <Atom charge=" -0.668300" name="O1" type="lig-O" />
+      <Atom charge=" -0.405300" name="C" type="lig-C3" />
+      <Atom charge="  0.134367" name="H" type="lig-H1" />
+      <Atom charge="  0.134367" name="H1" type="lig-H1" />
+      <Atom charge="  0.134367" name="H2" type="lig-H1" />
+      <Atom charge=" -0.766700" name="O2" type="lig-OH" />
+      <Atom charge="  0.483000" name="H3" type="lig-HO" />
+      <Bond atomName1="S" atomName2="O" />
+      <Bond atomName1="S" atomName2="O1" />
+      <Bond atomName1="S" atomName2="C" />
+      <Bond atomName1="S" atomName2="O2" />
+      <Bond atomName1="C" atomName2="H" />
+      <Bond atomName1="C" atomName2="H1" />
+      <Bond atomName1="C" atomName2="H2" />
+      <Bond atomName1="O2" atomName2="H3" />
+    </Residue>
+  </Residues>
+  <HarmonicBondForce>
+    <Bond type1="lig-O" type2="lig-S6" length="0.145300" k="571534.400000" />
+    <Bond type1="lig-C3" type2="lig-S6" length="0.180800" k="167443.680000" />
+    <Bond type1="lig-OH" type2="lig-S6" length="0.163500" k="312377.440000" />
+    <Bond type1="lig-C3" type2="lig-H1" length="0.109700" k="314553.120000" />
+    <Bond type1="lig-HO" type2="lig-OH" length="0.097300" k="471536.800000" />
+  </HarmonicBondForce>
+  <HarmonicAngleForce>
+    <Angle type1="lig-O" type2="lig-S6" type3="lig-O" angle="2.095269" k="1072.777600" />
+    <Angle type1="lig-C3" type2="lig-S6" type3="lig-O" angle="1.895603" k="784.081600" />
+    <Angle type1="lig-O" type2="lig-S6" type3="lig-OH" angle="1.885829" k="1056.878400" />
+    <Angle type1="lig-C3" type2="lig-S6" type3="lig-OH" angle="1.723339" k="793.286400" />
+    <Angle type1="lig-H1" type2="lig-C3" type3="lig-S6" angle="1.870121" k="364.844800" />
+    <Angle type1="lig-HO" type2="lig-OH" type3="lig-S6" angle="1.872041" k="384.928000" />
+    <Angle type1="lig-H1" type2="lig-C3" type3="lig-H1" angle="1.892985" k="324.678400" />
+  </HarmonicAngleForce>
+  <PeriodicTorsionForce>
+    <Proper k1="0.604356" periodicity1="3" phase1="0.0000000000000000" type1="lig-O" type2="lig-S6" type3="lig-C3" type4="lig-H1" />
+    <Proper k1="39.748000" periodicity1="1" phase1="3.1415926535897931" type1="lig-O" type2="lig-S6" type3="lig-OH" type4="lig-HO" />
+    <Proper k1="48.910960" periodicity1="1" phase1="3.1415926535897931" type1="lig-C3" type2="lig-S6" type3="lig-OH" type4="lig-HO" />
+    <Proper k1="0.604356" periodicity1="3" phase1="0.0000000000000000" type1="lig-OH" type2="lig-S6" type3="lig-C3" type4="lig-H1" />
+  </PeriodicTorsionForce>
+  <NonbondedForce coulomb14scale="0.8333333333333334" lj14scale="0.5">
+    <UseAttributeFromResidue name="charge" />
+    <Atom epsilon="1.1815616" sigma="0.3532413418034750" type="lig-S6" />
+    <Atom epsilon="0.6121192" sigma="0.3048120873800651" type="lig-O" />
+    <Atom epsilon="0.4510352" sigma="0.3397709531257257" type="lig-C3" />
+    <Atom epsilon="0.0870272" sigma="0.2421997255202334" type="lig-H1" />
+    <Atom epsilon="0.3891120" sigma="0.3242871333503238" type="lig-OH" />
+    <Atom epsilon="0.0196648" sigma="0.0537924646085430" type="lig-HO" />
+  </NonbondedForce>
+</ForceField>

@@ -1,0 +1,294 @@
+<ForceField>
+  <Info>
+    <DateGenerated>2022-11-16</DateGenerated>
+  </Info>
+  <AtomTypes>
+    <Type name="lig-O" class="O" element="O" mass="16.0000" />
+    <Type name="lig-C" class="C" element="C" mass="12.0100" />
+    <Type name="lig-CC" class="CC" element="C" mass="12.0100" />
+    <Type name="lig-CD" class="CD" element="C" mass="12.0100" />
+    <Type name="lig-NA" class="NA" element="N" mass="14.0100" />
+    <Type name="lig-CA" class="CA" element="C" mass="12.0100" />
+    <Type name="lig-HN" class="HN" element="H" mass="1.0080" />
+    <Type name="lig-HA" class="HA" element="H" mass="1.0080" />
+    <Type name="lig-OS" class="OS" element="O" mass="16.0000" />
+    <Type name="lig-F" class="F" element="F" mass="19.0000" />
+    <Type name="lig-C3" class="C3" element="C" mass="12.0100" />
+    <Type name="lig-HC" class="HC" element="H" mass="1.0080" />
+    <Type name="lig-NH" class="NH" element="N" mass="14.0100" />
+    <Type name="lig-H1" class="H1" element="H" mass="1.0080" />
+    <Type name="lig-N3" class="N3" element="N" mass="14.0100" />
+  </AtomTypes>
+  <Residues>
+    <Residue name="UNL">
+      <Atom charge=" -0.566151" name="O" type="lig-O" />
+      <Atom charge="  0.592849" name="C" type="lig-C" />
+      <Atom charge=" -0.226451" name="C1" type="lig-CC" />
+      <Atom charge="  0.179749" name="C2" type="lig-CD" />
+      <Atom charge=" -0.613451" name="N" type="lig-NA" />
+      <Atom charge="  0.158549" name="C3" type="lig-CA" />
+      <Atom charge=" -0.175051" name="C4" type="lig-CA" />
+      <Atom charge=" -0.117051" name="C5" type="lig-CA" />
+      <Atom charge="  0.082549" name="C6" type="lig-CA" />
+      <Atom charge=" -0.068051" name="C7" type="lig-CA" />
+      <Atom charge=" -0.180651" name="C8" type="lig-CA" />
+      <Atom charge="  0.447749" name="H" type="lig-HN" />
+      <Atom charge="  0.132949" name="H1" type="lig-HA" />
+      <Atom charge="  0.136949" name="H2" type="lig-HA" />
+      <Atom charge="  0.168949" name="H3" type="lig-HA" />
+      <Atom charge=" -0.039851" name="C9" type="lig-CA" />
+      <Atom charge=" -0.091551" name="C10" type="lig-CA" />
+      <Atom charge=" -0.160551" name="C11" type="lig-CA" />
+      <Atom charge="  0.142949" name="H4" type="lig-HA" />
+      <Atom charge="  0.101049" name="C12" type="lig-CA" />
+      <Atom charge="  0.147949" name="H5" type="lig-HA" />
+      <Atom charge=" -0.160551" name="C13" type="lig-CA" />
+      <Atom charge=" -0.091551" name="C14" type="lig-CA" />
+      <Atom charge="  0.147949" name="H6" type="lig-HA" />
+      <Atom charge="  0.142949" name="H7" type="lig-HA" />
+      <Atom charge=" -0.247251" name="O1" type="lig-OS" />
+      <Atom charge="  0.095049" name="C15" type="lig-CA" />
+      <Atom charge=" -0.134051" name="C16" type="lig-CA" />
+      <Atom charge=" -0.143051" name="C17" type="lig-CA" />
+      <Atom charge="  0.154949" name="H8" type="lig-HA" />
+      <Atom charge="  0.102849" name="C18" type="lig-CA" />
+      <Atom charge="  0.151449" name="H9" type="lig-HA" />
+      <Atom charge=" -0.140951" name="F" type="lig-F" />
+      <Atom charge=" -0.143051" name="C19" type="lig-CA" />
+      <Atom charge=" -0.134051" name="C20" type="lig-CA" />
+      <Atom charge="  0.151449" name="H10" type="lig-HA" />
+      <Atom charge="  0.154949" name="H11" type="lig-HA" />
+      <Atom charge=" -0.081951" name="C21" type="lig-C3" />
+      <Atom charge="  0.063316" name="H12" type="lig-HC" />
+      <Atom charge="  0.063316" name="H13" type="lig-HC" />
+      <Atom charge="  0.063316" name="H14" type="lig-HC" />
+      <Atom charge=" -0.619051" name="N1" type="lig-NH" />
+      <Atom charge="  0.176249" name="C22" type="lig-C3" />
+      <Atom charge="  0.135749" name="C23" type="lig-C3" />
+      <Atom charge="  0.064149" name="H15" type="lig-H1" />
+      <Atom charge="  0.064149" name="H16" type="lig-H1" />
+      <Atom charge=" -0.730651" name="N2" type="lig-N3" />
+      <Atom charge="  0.036149" name="H17" type="lig-H1" />
+      <Atom charge="  0.036149" name="H18" type="lig-H1" />
+      <Atom charge="  0.135749" name="C24" type="lig-C3" />
+      <Atom charge="  0.176249" name="C25" type="lig-C3" />
+      <Atom charge="  0.036149" name="H19" type="lig-H1" />
+      <Atom charge="  0.036149" name="H20" type="lig-H1" />
+      <Atom charge="  0.064149" name="H21" type="lig-H1" />
+      <Atom charge="  0.064149" name="H22" type="lig-H1" />
+      <Atom charge="  0.157049" name="C26" type="lig-C3" />
+      <Atom charge="  0.032982" name="H23" type="lig-H1" />
+      <Atom charge="  0.032982" name="H24" type="lig-H1" />
+      <Atom charge="  0.032982" name="H25" type="lig-H1" />
+      <Bond atomName1="O" atomName2="C" />
+      <Bond atomName1="C" atomName2="C1" />
+      <Bond atomName1="C" atomName2="C8" />
+      <Bond atomName1="C1" atomName2="C2" />
+      <Bond atomName1="C1" atomName2="C9" />
+      <Bond atomName1="C2" atomName2="N" />
+      <Bond atomName1="C2" atomName2="C21" />
+      <Bond atomName1="N" atomName2="C3" />
+      <Bond atomName1="C3" atomName2="C4" />
+      <Bond atomName1="C3" atomName2="C8" />
+      <Bond atomName1="C4" atomName2="C5" />
+      <Bond atomName1="C5" atomName2="C6" />
+      <Bond atomName1="C6" atomName2="C7" />
+      <Bond atomName1="C6" atomName2="N1" />
+      <Bond atomName1="C7" atomName2="C8" />
+      <Bond atomName1="C9" atomName2="C10" />
+      <Bond atomName1="C9" atomName2="C14" />
+      <Bond atomName1="C10" atomName2="C11" />
+      <Bond atomName1="C11" atomName2="C12" />
+      <Bond atomName1="C12" atomName2="C13" />
+      <Bond atomName1="C12" atomName2="O1" />
+      <Bond atomName1="C13" atomName2="C14" />
+      <Bond atomName1="O1" atomName2="C15" />
+      <Bond atomName1="C15" atomName2="C16" />
+      <Bond atomName1="C15" atomName2="C20" />
+      <Bond atomName1="C16" atomName2="C17" />
+      <Bond atomName1="C17" atomName2="C18" />
+      <Bond atomName1="C18" atomName2="F" />
+      <Bond atomName1="C18" atomName2="C19" />
+      <Bond atomName1="C19" atomName2="C20" />
+      <Bond atomName1="N1" atomName2="C22" />
+      <Bond atomName1="N1" atomName2="C25" />
+      <Bond atomName1="C22" atomName2="C23" />
+      <Bond atomName1="C23" atomName2="N2" />
+      <Bond atomName1="N2" atomName2="C24" />
+      <Bond atomName1="N2" atomName2="C26" />
+      <Bond atomName1="C24" atomName2="C25" />
+      <Bond atomName1="N" atomName2="H" />
+      <Bond atomName1="C4" atomName2="H1" />
+      <Bond atomName1="C5" atomName2="H2" />
+      <Bond atomName1="C7" atomName2="H3" />
+      <Bond atomName1="C10" atomName2="H4" />
+      <Bond atomName1="C11" atomName2="H5" />
+      <Bond atomName1="C13" atomName2="H6" />
+      <Bond atomName1="C14" atomName2="H7" />
+      <Bond atomName1="C16" atomName2="H8" />
+      <Bond atomName1="C17" atomName2="H9" />
+      <Bond atomName1="C19" atomName2="H10" />
+      <Bond atomName1="C20" atomName2="H11" />
+      <Bond atomName1="C21" atomName2="H12" />
+      <Bond atomName1="C21" atomName2="H13" />
+      <Bond atomName1="C21" atomName2="H14" />
+      <Bond atomName1="C22" atomName2="H15" />
+      <Bond atomName1="C22" atomName2="H16" />
+      <Bond atomName1="C23" atomName2="H17" />
+      <Bond atomName1="C23" atomName2="H18" />
+      <Bond atomName1="C24" atomName2="H19" />
+      <Bond atomName1="C24" atomName2="H20" />
+      <Bond atomName1="C25" atomName2="H21" />
+      <Bond atomName1="C25" atomName2="H22" />
+      <Bond atomName1="C26" atomName2="H23" />
+      <Bond atomName1="C26" atomName2="H24" />
+      <Bond atomName1="C26" atomName2="H25" />
+    </Residue>
+  </Residues>
+  <HarmonicBondForce>
+    <Bond type1="lig-C" type2="lig-O" length="0.121800" k="546095.680000" />
+    <Bond type1="lig-C" type2="lig-CC" length="0.146800" k="247190.720000" />
+    <Bond type1="lig-C" type2="lig-CA" length="0.149100" k="228195.360000" />
+    <Bond type1="lig-CC" type2="lig-CD" length="0.137300" k="348192.480000" />
+    <Bond type1="lig-CA" type2="lig-CC" length="0.145600" k="257901.760000" />
+    <Bond type1="lig-CD" type2="lig-NA" length="0.138000" k="296645.600000" />
+    <Bond type1="lig-C3" type2="lig-CD" length="0.150200" k="219743.680000" />
+    <Bond type1="lig-CA" type2="lig-NA" length="0.138400" k="292461.600000" />
+    <Bond type1="lig-CA" type2="lig-CA" length="0.139800" k="316812.480000" />
+    <Bond type1="lig-CA" type2="lig-NH" length="0.138600" k="290453.280000" />
+    <Bond type1="lig-CA" type2="lig-OS" length="0.137000" k="299156.000000" />
+    <Bond type1="lig-CA" type2="lig-F" length="0.134900" k="295892.480000" />
+    <Bond type1="lig-C3" type2="lig-NH" length="0.146400" k="219074.240000" />
+    <Bond type1="lig-C3" type2="lig-C3" length="0.153800" k="194556.000000" />
+    <Bond type1="lig-C3" type2="lig-N3" length="0.146500" k="218572.160000" />
+    <Bond type1="lig-HN" type2="lig-NA" length="0.101000" k="447771.680000" />
+    <Bond type1="lig-CA" type2="lig-HA" length="0.108600" k="331121.760000" />
+    <Bond type1="lig-C3" type2="lig-HC" length="0.109700" k="314553.120000" />
+    <Bond type1="lig-C3" type2="lig-H1" length="0.109700" k="314553.120000" />
+  </HarmonicBondForce>
+  <HarmonicAngleForce>
+    <Angle type1="lig-CC" type2="lig-C" type3="lig-O" angle="2.162987" k="725.505600" />
+    <Angle type1="lig-CA" type2="lig-C" type3="lig-O" angle="2.139775" k="721.321600" />
+    <Angle type1="lig-C" type2="lig-CC" type3="lig-CD" angle="2.117958" k="562.329600" />
+    <Angle type1="lig-C" type2="lig-CC" type3="lig-CA" angle="2.145883" k="543.920000" />
+    <Angle type1="lig-C" type2="lig-CA" type3="lig-CA" angle="2.100156" k="555.635200" />
+    <Angle type1="lig-CA" type2="lig-C" type3="lig-CC" angle="2.024583" k="553.124800" />
+    <Angle type1="lig-CC" type2="lig-CD" type3="lig-NA" angle="1.867329" k="775.713600" />
+    <Angle type1="lig-C3" type2="lig-CD" type3="lig-CC" angle="2.084797" k="558.982400" />
+    <Angle type1="lig-CA" type2="lig-CA" type3="lig-CC" angle="2.108184" k="561.492800" />
+    <Angle type1="lig-CA" type2="lig-CC" type3="lig-CD" angle="1.981124" k="584.086400" />
+    <Angle type1="lig-CA" type2="lig-NA" type3="lig-CD" angle="1.974841" k="580.739200" />
+    <Angle type1="lig-C3" type2="lig-CD" type3="lig-NA" angle="2.142044" k="689.523200" />
+    <Angle type1="lig-CA" type2="lig-CA" type3="lig-NA" angle="2.065424" k="729.689600" />
+    <Angle type1="lig-CA" type2="lig-CA" type3="lig-CA" angle="2.094745" k="575.718400" />
+    <Angle type1="lig-CA" type2="lig-CA" type3="lig-NH" angle="2.110977" k="721.321600" />
+    <Angle type1="lig-C3" type2="lig-NH" type3="lig-CA" angle="2.094047" k="545.593600" />
+    <Angle type1="lig-CA" type2="lig-CA" type3="lig-OS" angle="2.080433" k="730.526400" />
+    <Angle type1="lig-CA" type2="lig-OS" type3="lig-CA" angle="2.092476" k="561.492800" />
+    <Angle type1="lig-CA" type2="lig-CA" type3="lig-F" angle="2.076245" k="747.262400" />
+    <Angle type1="lig-C3" type2="lig-C3" type3="lig-NH" angle="1.927892" k="698.728000" />
+    <Angle type1="lig-C3" type2="lig-NH" type3="lig-C3" angle="1.998577" k="544.756800" />
+    <Angle type1="lig-C3" type2="lig-C3" type3="lig-N3" angle="1.938014" k="697.054400" />
+    <Angle type1="lig-C3" type2="lig-N3" type3="lig-C3" angle="1.960878" k="549.777600" />
+    <Angle type1="lig-CD" type2="lig-NA" type3="lig-HN" angle="2.190389" k="394.132800" />
+    <Angle type1="lig-CD" type2="lig-C3" type3="lig-HC" angle="1.928415" k="399.153600" />
+    <Angle type1="lig-CA" type2="lig-NA" type3="lig-HN" angle="2.191087" k="393.296000" />
+    <Angle type1="lig-CA" type2="lig-CA" type3="lig-HA" angle="2.092302" k="407.521600" />
+    <Angle type1="lig-HC" type2="lig-C3" type3="lig-HC" angle="1.877626" k="326.352000" />
+    <Angle type1="lig-H1" type2="lig-C3" type3="lig-NH" angle="1.916198" k="512.121600" />
+    <Angle type1="lig-C3" type2="lig-C3" type3="lig-H1" angle="1.912184" k="392.459200" />
+    <Angle type1="lig-H1" type2="lig-C3" type3="lig-H1" angle="1.892985" k="324.678400" />
+    <Angle type1="lig-H1" type2="lig-C3" type3="lig-N3" angle="1.917769" k="512.121600" />
+  </HarmonicAngleForce>
+  <PeriodicTorsionForce>
+    <Proper k1="15.167000" periodicity1="2" phase1="3.1415926535897931" type1="lig-C" type2="lig-CA" type3="lig-CA" type4="lig-HA" />
+    <Proper k1="7.112800" periodicity1="2" phase1="3.1415926535897931" type1="lig-CC" type2="lig-CD" type3="lig-NA" type4="lig-HN" />
+    <Proper k1="0.000000" periodicity1="3" phase1="0.0000000000000000" type1="lig-CC" type2="lig-CD" type3="lig-C3" type4="lig-HC" />
+    <Proper k1="15.167000" periodicity1="2" phase1="3.1415926535897931" type1="lig-CC" type2="lig-CA" type3="lig-CA" type4="lig-HA" />
+    <Proper k1="0.000000" periodicity1="3" phase1="0.0000000000000000" type1="lig-NA" type2="lig-CD" type3="lig-C3" type4="lig-HC" />
+    <Proper k1="15.167000" periodicity1="2" phase1="3.1415926535897931" type1="lig-NA" type2="lig-CA" type3="lig-CA" type4="lig-HA" />
+    <Proper k1="15.167000" periodicity1="2" phase1="3.1415926535897931" type1="lig-CA" type2="lig-CA" type3="lig-CA" type4="lig-HA" />
+    <Proper k1="1.255200" periodicity1="2" phase1="3.1415926535897931" type1="lig-CA" type2="lig-CA" type3="lig-NA" type4="lig-HN" />
+    <Proper k1="1.389088" periodicity1="2" phase1="0.0000000000000000" type1="lig-CA" type2="lig-NH" type3="lig-C3" type4="lig-H1" />
+    <Proper k1="7.112800" periodicity1="2" phase1="3.1415926535897931" type1="lig-HN" type2="lig-NA" type3="lig-CD" type4="lig-C3" />
+    <Proper k1="15.167000" periodicity1="2" phase1="3.1415926535897931" type1="lig-HA" type2="lig-CA" type3="lig-CA" type4="lig-HA" />
+    <Proper k1="15.167000" periodicity1="2" phase1="3.1415926535897931" type1="lig-HA" type2="lig-CA" type3="lig-CA" type4="lig-NH" />
+    <Proper k1="15.167000" periodicity1="2" phase1="3.1415926535897931" type1="lig-HA" type2="lig-CA" type3="lig-CA" type4="lig-CA" />
+    <Proper k1="15.167000" periodicity1="2" phase1="3.1415926535897931" type1="lig-HA" type2="lig-CA" type3="lig-CA" type4="lig-OS" />
+    <Proper k1="15.167000" periodicity1="2" phase1="3.1415926535897931" type1="lig-OS" type2="lig-CA" type3="lig-CA" type4="lig-HA" />
+    <Proper k1="15.167000" periodicity1="2" phase1="3.1415926535897931" type1="lig-HA" type2="lig-CA" type3="lig-CA" type4="lig-F" />
+    <Proper k1="15.167000" periodicity1="2" phase1="3.1415926535897931" type1="lig-F" type2="lig-CA" type3="lig-CA" type4="lig-HA" />
+    <Proper k1="0.650844" periodicity1="3" phase1="0.0000000000000000" type1="lig-NH" type2="lig-C3" type3="lig-C3" type4="lig-H1" />
+    <Proper k1="0.000000" periodicity1="2" phase1="0.0000000000000000" type1="lig-C3" type2="lig-NH" type3="lig-C3" type4="lig-H1" />
+    <Proper k1="0.941400" periodicity1="3" phase1="0.0000000000000000" type1="lig-C3" type2="lig-N3" type3="lig-C3" type4="lig-H1" />
+    <Proper k1="0.000000" periodicity1="2" phase1="0.0000000000000000" type1="lig-H1" type2="lig-C3" type3="lig-NH" type4="lig-C3" />
+    <Proper k1="0.650844" periodicity1="3" phase1="0.0000000000000000" type1="lig-H1" type2="lig-C3" type3="lig-C3" type4="lig-N3" />
+    <Proper k1="0.650844" periodicity1="3" phase1="0.0000000000000000" type1="lig-H1" type2="lig-C3" type3="lig-C3" type4="lig-H1" />
+    <Proper k1="0.650844" periodicity1="3" phase1="0.0000000000000000" type1="lig-N3" type2="lig-C3" type3="lig-C3" type4="lig-H1" />
+    <Proper k1="0.941400" periodicity1="3" phase1="0.0000000000000000" type1="lig-H1" type2="lig-C3" type3="lig-N3" type4="lig-C3" />
+    <Proper k1="12.029000" periodicity1="2" phase1="3.1415926535897931" type1="lig-O" type2="lig-C" type3="lig-CC" type4="lig-CD" />
+    <Proper k1="12.029000" periodicity1="2" phase1="3.1415926535897931" type1="lig-O" type2="lig-C" type3="lig-CC" type4="lig-CA" />
+    <Proper k1="2.186140" periodicity1="2" phase1="3.1415926535897931" type1="lig-O" type2="lig-C" type3="lig-CA" type4="lig-CA" />
+    <Proper k1="16.736000" periodicity1="2" phase1="3.1415926535897931" type1="lig-C" type2="lig-CC" type3="lig-CD" type4="lig-NA" />
+    <Proper k1="16.736000" periodicity1="2" phase1="3.1415926535897931" type1="lig-C" type2="lig-CC" type3="lig-CD" type4="lig-C3" />
+    <Proper k1="2.928800" periodicity1="2" phase1="3.1415926535897931" type1="lig-C" type2="lig-CC" type3="lig-CA" type4="lig-CA" />
+    <Proper k1="15.167000" periodicity1="2" phase1="3.1415926535897931" type1="lig-C" type2="lig-CA" type3="lig-CA" type4="lig-NA" />
+    <Proper k1="15.167000" periodicity1="2" phase1="3.1415926535897931" type1="lig-C" type2="lig-CA" type3="lig-CA" type4="lig-CA" />
+    <Proper k1="4.184000" periodicity1="2" phase1="3.1415926535897931" type1="lig-CC" type2="lig-C" type3="lig-CA" type4="lig-CA" />
+    <Proper k1="7.112800" periodicity1="2" phase1="3.1415926535897931" type1="lig-CC" type2="lig-CD" type3="lig-NA" type4="lig-CA" />
+    <Proper k1="15.167000" periodicity1="2" phase1="3.1415926535897931" type1="lig-CC" type2="lig-CA" type3="lig-CA" type4="lig-CA" />
+    <Proper k1="12.029000" periodicity1="2" phase1="3.1415926535897931" type1="lig-CD" type2="lig-CC" type3="lig-C" type4="lig-CA" />
+    <Proper k1="2.928800" periodicity1="2" phase1="3.1415926535897931" type1="lig-CD" type2="lig-CC" type3="lig-CA" type4="lig-CA" />
+    <Proper k1="1.255200" periodicity1="2" phase1="3.1415926535897931" type1="lig-CD" type2="lig-NA" type3="lig-CA" type4="lig-CA" />
+    <Proper k1="16.736000" periodicity1="2" phase1="3.1415926535897931" type1="lig-NA" type2="lig-CD" type3="lig-CC" type4="lig-CA" />
+    <Proper k1="15.167000" periodicity1="2" phase1="3.1415926535897931" type1="lig-NA" type2="lig-CA" type3="lig-CA" type4="lig-CA" />
+    <Proper k1="7.112800" periodicity1="2" phase1="3.1415926535897931" type1="lig-CA" type2="lig-NA" type3="lig-CD" type4="lig-C3" />
+    <Proper k1="15.167000" periodicity1="2" phase1="3.1415926535897931" type1="lig-CA" type2="lig-CA" type3="lig-CA" type4="lig-CA" />
+    <Proper k1="15.167000" periodicity1="2" phase1="3.1415926535897931" type1="lig-CA" type2="lig-CA" type3="lig-CA" type4="lig-NH" />
+    <Proper k1="3.066872" periodicity1="2" phase1="3.1415926535897931" type1="lig-CA" type2="lig-CA" type3="lig-NH" type4="lig-C3" />
+    <Proper k1="0.000000" periodicity1="2" phase1="0.0000000000000000" type1="lig-CA" type2="lig-NH" type3="lig-C3" type4="lig-C3" />
+    <Proper k1="12.029000" periodicity1="2" phase1="3.1415926535897931" type1="lig-CA" type2="lig-C" type3="lig-CC" type4="lig-CA" />
+    <Proper k1="16.736000" periodicity1="2" phase1="3.1415926535897931" type1="lig-CA" type2="lig-CC" type3="lig-CD" type4="lig-C3" />
+    <Proper k1="15.167000" periodicity1="2" phase1="3.1415926535897931" type1="lig-CA" type2="lig-CA" type3="lig-CA" type4="lig-OS" />
+    <Proper k1="3.765600" periodicity1="2" phase1="3.1415926535897931" type1="lig-CA" type2="lig-CA" type3="lig-OS" type4="lig-CA" />
+    <Proper k1="3.765600" periodicity1="2" phase1="3.1415926535897931" type1="lig-CA" type2="lig-OS" type3="lig-CA" type4="lig-CA" />
+    <Proper k1="15.167000" periodicity1="2" phase1="3.1415926535897931" type1="lig-OS" type2="lig-CA" type3="lig-CA" type4="lig-CA" />
+    <Proper k1="15.167000" periodicity1="2" phase1="3.1415926535897931" type1="lig-CA" type2="lig-CA" type3="lig-CA" type4="lig-F" />
+    <Proper k1="15.167000" periodicity1="2" phase1="3.1415926535897931" type1="lig-F" type2="lig-CA" type3="lig-CA" type4="lig-CA" />
+    <Proper k1="0.650844" periodicity1="3" phase1="0.0000000000000000" type1="lig-NH" type2="lig-C3" type3="lig-C3" type4="lig-N3" />
+    <Proper k1="0.000000" periodicity1="2" phase1="0.0000000000000000" type1="lig-C3" type2="lig-NH" type3="lig-C3" type4="lig-C3" />
+    <Proper k1="1.171520" periodicity1="2" phase1="3.1415926535897931" type1="lig-C3" type2="lig-C3" type3="lig-N3" type4="lig-C3" />
+    <Proper k1="0.000000" periodicity1="2" phase1="0.0000000000000000" type1="lig-C3" type2="lig-C3" type3="lig-NH" type4="lig-C3" />
+    <Proper k1="1.171520" periodicity1="2" phase1="3.1415926535897931" type1="lig-C3" type2="lig-N3" type3="lig-C3" type4="lig-C3" />
+    <Improper k1="4.602400" periodicity1="2" phase1="3.1415926535897931" type1="lig-CA" type2="lig-CD" type3="lig-NA" type4="lig-HN" />
+    <Improper k1="4.602400" periodicity1="2" phase1="3.1415926535897931" type1="lig-CA" type2="lig-CA" type3="lig-CA" type4="lig-HA" />
+    <Improper k1="43.932000" periodicity1="2" phase1="3.1415926535897931" type1="lig-O" type2="lig-C" type3="lig-CC" type4="lig-CA" />
+    <Improper k1="4.602400" periodicity1="2" phase1="3.1415926535897931" type1="lig-C" type2="lig-CA" type3="lig-CC" type4="lig-CD" />
+    <Improper k1="4.602400" periodicity1="2" phase1="3.1415926535897931" type1="lig-C3" type2="lig-CC" type3="lig-CD" type4="lig-NA" />
+    <Improper k1="4.602400" periodicity1="2" phase1="3.1415926535897931" type1="lig-CA" type2="lig-CA" type3="lig-CA" type4="lig-NA" />
+    <Improper k1="4.602400" periodicity1="2" phase1="3.1415926535897931" type1="lig-CA" type2="lig-CA" type3="lig-CA" type4="lig-NH" />
+    <Improper k1="4.602400" periodicity1="2" phase1="3.1415926535897931" type1="lig-C" type2="lig-CA" type3="lig-CA" type4="lig-CA" />
+    <Improper k1="4.602400" periodicity1="2" phase1="3.1415926535897931" type1="lig-CA" type2="lig-CA" type3="lig-CA" type4="lig-CC" />
+    <Improper k1="4.602400" periodicity1="2" phase1="3.1415926535897931" type1="lig-CA" type2="lig-CA" type3="lig-CA" type4="lig-OS" />
+    <Improper k1="4.602400" periodicity1="2" phase1="3.1415926535897931" type1="lig-CA" type2="lig-CA" type3="lig-CA" type4="lig-F" />
+    <Improper k1="4.602400" periodicity1="2" phase1="3.1415926535897931" type1="lig-C3" type2="lig-C3" type3="lig-NH" type4="lig-CA" />
+  </PeriodicTorsionForce>
+  <NonbondedForce coulomb14scale="0.8333333333333334" lj14scale="0.5">
+    <UseAttributeFromResidue name="charge" />
+    <Atom epsilon="0.6121192" sigma="0.3048120873800651" type="lig-O" />
+    <Atom epsilon="0.4133792" sigma="0.3315212310028100" type="lig-C" />
+    <Atom epsilon="0.4133792" sigma="0.3315212310028100" type="lig-CC" />
+    <Atom epsilon="0.4133792" sigma="0.3315212310028100" type="lig-CD" />
+    <Atom epsilon="0.8543728" sigma="0.3205809947742336" type="lig-NA" />
+    <Atom epsilon="0.4133792" sigma="0.3315212310028100" type="lig-CA" />
+    <Atom epsilon="0.0418400" sigma="0.1106496207546381" type="lig-HN" />
+    <Atom epsilon="0.0673624" sigma="0.2625478522039127" type="lig-HA" />
+    <Atom epsilon="0.3037584" sigma="0.3156097800335680" type="lig-OS" />
+    <Atom epsilon="0.3481088" sigma="0.3034222854639816" type="lig-F" />
+    <Atom epsilon="0.4510352" sigma="0.3397709531257257" type="lig-C3" />
+    <Atom epsilon="0.0870272" sigma="0.2600176998083396" type="lig-HC" />
+    <Atom epsilon="0.8995600" sigma="0.3189951950029202" type="lig-NH" />
+    <Atom epsilon="0.0870272" sigma="0.2421997255202334" type="lig-H1" />
+    <Atom epsilon="0.3589872" sigma="0.3365102638546620" type="lig-N3" />
+  </NonbondedForce>
+</ForceField>
