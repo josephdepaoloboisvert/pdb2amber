@@ -1,0 +1,35 @@
+#!/bin/bash
+#SBATCH --job-name="MembraneRelax"
+#SBATCH --output="MembraneRelax.%j.%N.out"
+#SBATCH --partition=GPU-shared
+#SBATCH --gpus=1
+#SBATCH --mem=22G
+#SBATCH --mail-type=END,FAIL
+#SBATCH --mail-user=jdepaoloboisvert@hawk.iit.edu
+#SBATCH --account=mcb160011p
+#SBATCH --no-requeue
+#SBATCH -t 36:00:00
+
+source ~/.bashrc
+module load anaconda3
+module load cuda
+
+conda activate yank_env
+
+cd $SLURM_SUBMIT_DIR
+
+echo MIN
+python ../AmberOpenMM.py -i ../input_min.json
+echo STEP1
+python ../AmberOpenMM.py -i ../input_step1_nvt.json
+echo STEP2
+python ../AmberOpenMM.py -i ../input_step2_nvt.json
+echo STEP3
+python ../AmberOpenMM.py -i ../input_step3_npt.json
+
+grep -eMembraneMonteCarloPressure -v step3_20.rst > step3_A.rst
+
+echo STEP4
+python ../AmberOpenMM.py -i ../input_step4_npt.json
+echo STEP5
+python ../AmberOpenMM.py -i ../input_step5_npt.json
